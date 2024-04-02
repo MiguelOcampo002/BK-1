@@ -4,7 +4,7 @@ from PIL import Image
 
 
 st.title('Temperatura y humedad, simulación irreal')
-image = Image.open('OIP.jpg')
+image = Image.open('OIP.jpeg')
 st.image(image)
 
 uploaded_file = st.file_uploader('Choose a file')
