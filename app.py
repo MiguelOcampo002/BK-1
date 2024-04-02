@@ -3,8 +3,8 @@ import streamlit as st
 from PIL import Image
 
 
-st.title('Análisis de datos de Sensores en Mi Ciudad')
-image = Image.open('grafana2.jpg')
+st.title('Temperatura y humedad, simulación irreal')
+image = Image.open('OIP.jpg')
 st.image(image)
 
 uploaded_file = st.file_uploader('Choose a file')
